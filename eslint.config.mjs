@@ -15,7 +15,7 @@ export default [
       ],
       '@stylistic/js/linebreak-style': [
         'error',
-        'unix'
+        'windows'
       ],
       '@stylistic/js/quotes': [
         'error',
@@ -34,6 +34,7 @@ export default [
         'error', { 'before': true, 'after': true },
       ],
       'no-console': 'off',
+      "semi": ["error", "never"]
     },
     files: ["**/*.js"], 
     languageOptions: {

@@ -1,0 +1,9 @@
+post http://localhost:3003/api/blogs
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Imp1aGEiLCJpZCI6IjY3MDM2OWI1NDE5ODY5MjI1MGI2YWNkMCIsImlhdCI6MTcyODYwNzIwMn0.wN1SyYdrq2iTSS6xoJRl4alMsEd-eTrxCLcfype3kOM
+
+{
+    "title": "ABC AABC",
+    "author": "Jebajee",
+    "url": "https://www.justus.fi"
+}
